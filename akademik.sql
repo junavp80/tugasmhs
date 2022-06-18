@@ -41,9 +41,9 @@ CREATE TABLE IF NOT EXISTS `mahasiswa` (
 --
 
 INSERT INTO `mahasiswa` (`nim`, `nama`, `prodi`, `foto`) VALUES
-('1', 'Juna', 'SI', '02.png'),
-('2', 'Sinta', 'SI', '09.jpg'),
-('3', 'Joko', 'SI', '07.png'),
+('20410100070', 'Juna', 'SI', '02.png'),
+('20410100000', 'Sinta', 'SI', '09.jpg'),
+('20410100089', 'Joko', 'SI', '07.png'),
 ('20410100078', 'Rapli', 'SI', '07.png');
 COMMIT;
 
