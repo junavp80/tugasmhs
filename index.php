@@ -36,7 +36,8 @@ require 'koneksi.php';
                 <td><?php echo $row['nama']; ?></td>
                 <td><?php echo $row['prodi']; ?></td>
                 <td>
-                    <a href="update.php?nim=<?php echo $row['nim']; ?>">Ubah</a> &nbsp;&nbsp; <a href="">Hapus</a>
+                    <a href="update.php?nim=<?php echo $row['nim']; ?>">Ubah</a> &nbsp;&nbsp; 
+                    <a href="hapus.php?id=<?=$row['nim']?>" onclick="return confirm('Hapus data ini?')">Hapus</a></td>
                 </td>
             </tr>
                 <?php
